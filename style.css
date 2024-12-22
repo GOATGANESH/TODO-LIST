@@ -1,0 +1,24 @@
+:root{
+    --backColor:#83c5be;
+    --containerColor:#006d77;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: var(--containerColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: var(--backColor);
+    width: 400px;
+    height: 500px;
+}
